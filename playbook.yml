@@ -13,8 +13,8 @@
       servicenow.itsm.incident:
         instance:
           host: https://dev109340.service-now.com
-          username: "{{ sn_username }}"
-          password: "{{ sn_password }}"
+          #username: "{{ sn_username }}"
+          #password: "{{ sn_password }}"
 
         state: new
         caller: admin
